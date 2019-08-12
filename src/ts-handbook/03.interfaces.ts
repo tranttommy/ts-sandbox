@@ -5,12 +5,11 @@ export {};
 //   console.log(label);
 // }
 
-interface LabeledValue {
-  label: string;
-}
-
 function printLabel({ label }: LabeledValue) {
   console.log(label);
+}
+interface LabeledValue {
+  label: string;
 }
 
 let myObj = {
